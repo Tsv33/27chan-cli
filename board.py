@@ -1,7 +1,11 @@
+import sys
 import json
 import datetime
 import requests
 from color import UnicodeColors
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 
 class Thread:
